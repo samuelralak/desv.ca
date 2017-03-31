@@ -1,0 +1,3 @@
+$('#calendar_form').html('<%= escape_javascript render('logs/form') %>');
+var view = $('#calendar').fullCalendar('getView');
+$('#view').val(view.name);

@@ -1,0 +1,10 @@
+<% unless request.format.pdf? %>
+  <%= render "criteria_controls" %>
+<% end %>
+<div class="report_content">
+  <%#= render "#{@report.report_name}" %>
+  <%= render "report_body" %>
+</div>
+<!-- report_content -->
+
+    
